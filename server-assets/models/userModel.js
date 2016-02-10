@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import random from 'mongoose-simple-random';
 
 const userSchema = new mongoose.Schema({
   accessToken: { type: String },
@@ -16,5 +17,7 @@ const userSchema = new mongoose.Schema({
     value: { type: Number },
   },
 });
+
+userSchema.plugin(random);
 
 export default mongoose.model('Users', userSchema);

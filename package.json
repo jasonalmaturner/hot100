@@ -16,8 +16,11 @@
     "cors": "^2.7.1",
     "cron": "^1.1.0",
     "express": "^4.13.3",
+    "firebase": "^2.4.0",
     "mongoose": "^4.4.3",
     "mongoose-seed": "^0.1.5",
+    "mongoose-simple-random": "^0.3.3",
+    "q": "^1.4.1",
     "request-promise": "^1.0.2"
   },
   "devDependencies": {
